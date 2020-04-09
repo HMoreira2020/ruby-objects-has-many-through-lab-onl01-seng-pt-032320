@@ -18,16 +18,7 @@ class Song
     artist_name = Atrist.new(name)
     artist_name.genre = genre 
   end 
-  
-  def songs 
-    Song.all.select{|song| song.artist == self} 
-  end 
-  
-  def genres 
-    self.songs.collect{|song| song.genre} 
-  end 
 
-  
   
   
   
