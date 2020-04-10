@@ -22,5 +22,5 @@ class Patient
     self.appointments.collect{|appointment| appointment.doctor} 
   end 
   
-  
+end 
   
